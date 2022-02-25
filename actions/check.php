@@ -30,5 +30,5 @@ if(isset($_POST['id'])){
         exit();
     }
 }else {
-    header("Location: ../projectFinalMain.php?mess=error");
+    header("Location: ../ToDoList.php?mess=error");
 }

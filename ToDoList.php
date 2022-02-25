@@ -35,7 +35,7 @@ session_start();
                 <a href="project3.php">Dairy</a>
                 <a href="project4.php">study schedule creator</a>
                 <a href="LoginPanelHomework.php">Login panel Homework</a>
-                <a class="active" href="projectFinalMain.php">Group Homework</a>
+                <a class="active" href="ToDoList.php">To do list</a>
             </div>
     </li>
     <li class="iconTop"><a style="font-size:15px;" href="javascript:void(0);" onclick="myFunctionTop()">&#9776;</a></li>

@@ -11,7 +11,7 @@ if(isset($_POST['title'])){
     $detailes = $_POST['detailes'];
 
     if(empty($title)){
-        header("Location: ../projectFinalMain.php?mess=error");
+        header("Location: ../ToDoList.php?mess=error");
     }else {
         $username = $_SESSION['userName'];
         //insert into todos title, username ,and detailes
@@ -20,16 +20,16 @@ if(isset($_POST['title'])){
         $res = $stmt->execute([$title, $username, $detailes]);        
 
         if($res){
-            header("Location: ../projectFinalMain.php?mess=success"); 
+            header("Location: ../ToDoList.php?mess=success"); 
         }else {
-            header("Location: ../projectFinalMain.php");
+            header("Location: ../ToDoList.php");
         }
         $conn = null;
         exit();
     }
     $NewPerson=true;
 }else {
-    header("Location: ../projectFinalMain.php?mess=error");
+    header("Location: ../ToDoList.php?mess=error");
 }
 
             
