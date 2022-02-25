@@ -255,14 +255,14 @@ session_start();
                     <h2><?php echo $todo['title'] ?></h2>
                 <?php } ?>
                 <br>
-                <h2> <?php echo "detailes: ".$todo['detailes'] ?></h2> 
+                <h3> <?php echo "detailes: ".$todo['detailes'] ?></h3> 
                 <small>created: <?php echo $todo['date_time'] ?></small> 
             </div>
         <?php } ?>
      
         </div>
     </div>
-    </div>
+</div>
 
     <script>
         $(document).ready(function(){
